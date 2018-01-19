@@ -1,0 +1,26 @@
+
+2017-12-29 17:52:22 Commons Daemon procrun stderr initialized
+Dec 29, 2017 5:52:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;;.
+Dec 29, 2017 5:52:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8181"]
+Dec 29, 2017 5:52:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8119"]
+Dec 29, 2017 5:52:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1127 ms
+Dec 29, 2017 5:52:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 29, 2017 5:52:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Dec 29, 2017 5:52:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+Dec 29, 2017 5:52:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+Dec 29, 2017 5:52:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+Dec 29, 2017 5:52:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8181"]
+Dec 29, 2017 5:52:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8119"]
+Dec 29, 2017 5:52:24 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 725 ms

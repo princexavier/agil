@@ -1,0 +1,69 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="font-family: 'Nunito', sans-serif;">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Agile Management</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Dashboard</a></li>
+                    <li><a href="ticket.html">Tickets</a></li>
+                    <li><a href="ticket.html">Sprints</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-4">
+    			<form action="Register_controller" class="reg-form" method="post">
+    				<h2>Get Started</h2>
+    				<p style="margin-bottom: 15%;text-align:center;font-size:18px;">Already have a Setmore account? <a href="login.jsp" style="color:#161582;cursor:pointer;">Login</a><p>
+    				<input type="text" name="username" placeholder="Your Name">
+    				<input type="text" name="email" placeholder="Your Email">
+    				<input type="text" name="password" placeholder="Password">
+    				<button class="sign-up">SignUp For Free</button>
+    				<span>Or</span>
+    			    <button class="sign-up">Login</button>
+    			</form>
+    		</div>
+    		<div class="col-md-4"></div>
+    	</div>
+    </div>
+    <footer>
+        <ul class="foot-content">
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Twitter</a>
+            </li>
+            <li>
+                <a href="#">Terms & Conditions</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

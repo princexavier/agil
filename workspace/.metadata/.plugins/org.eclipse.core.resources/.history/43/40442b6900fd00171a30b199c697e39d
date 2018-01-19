@@ -1,0 +1,21 @@
+package com.validation;
+
+import java.sql.Connection;
+
+import com.Database.Db_Connection;
+
+public class Validate {
+	static Connection con;
+
+	public static boolean checkuser(String email, String password) {
+		// TODO Auto-generated method stub
+
+		try {
+			con = Db_Connection.DBConnect();
+		} catch (Exception e) {
+
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.Database;
+
+import java.sql.Connection;
+
+public class Db_Connection {
+  
+	public static Connection DBConnect(){
+		
+		Connection con = null;
+	}
+	
+		
+}

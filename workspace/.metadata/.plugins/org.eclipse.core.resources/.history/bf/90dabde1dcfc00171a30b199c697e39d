@@ -1,0 +1,11 @@
+package com.Database;
+
+public class Db_Connection {
+  
+	public static connection(){
+		
+		Connection con = null;
+	}
+	
+		
+}

@@ -1,0 +1,11 @@
+package com.DAO;
+
+import com.pojo.register_pojo;
+
+public interface UserDAO {
+
+void insert(register_pojo registerpojo );
+void update();
+void fetch();
+
+}

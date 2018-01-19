@@ -1,0 +1,10 @@
+package com.Database;
+
+public class Db_Connection {
+  
+	
+	static int x = 10;
+	int y = 10;
+	
+	
+}

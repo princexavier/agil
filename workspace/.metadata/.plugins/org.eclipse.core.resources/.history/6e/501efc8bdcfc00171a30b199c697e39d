@@ -1,0 +1,17 @@
+
+public class dumm {
+
+ 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      public static  int x =10;
+       
+      x++;
+      System.out.println(x);
+       
+      int y =10;
+      
+      y++;
+      System.out.println(y);
+	}
+
+}

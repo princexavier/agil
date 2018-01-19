@@ -1,0 +1,20 @@
+
+public class dumm {
+
+ 	public void chumma(){
+ 		static int xdf =10;
+ 	       
+ 	      xdf++;
+ 	      System.out.println(xdf);
+ 		
+ 	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           
+      int y =10;
+      
+      y++;
+      System.out.println(y);
+	}
+
+}

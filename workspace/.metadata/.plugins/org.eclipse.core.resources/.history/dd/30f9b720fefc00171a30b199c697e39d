@@ -1,0 +1,60 @@
+package com.DAO;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.pojo.*;
+import com.Database.Db_Connection;
+
+public class Insert_impl implements UserDAO {
+	Connection con;
+
+	@Override
+	public void insert(register_pojo registerpojo) {
+		// TODO Auto-generated method stub
+		
+		try{
+		
+           con = Db_Connection.DBConnect();
+           String sql="insert into AGL_REG values(?,?,?)";
+           PreparedStatement ps = con.prepareStatement(sql);
+           ps.setString(1,registerpojo.getUsername());
+           ps.setString(2,registerpojo.getEmail());
+           ps.setString(3,registerpojo.getPassword());
+           ps.executeUpdate();
+           System.out.println("inserted Successfully");
+           
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void fetch() {
+		// TODO Auto-generated method stub
+		try{
+			
+			  con = Db_Connection.DBConnect();
+			  String sql = "select from AGL_REG (?,?)";
+              Statement stmt = con.createStatement();
+              stmt.executeQuery(sql);
+              ResultSet rs=stmt.executeQuery(sql);
+              
+			  
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
+	}
+	
+
+
+}

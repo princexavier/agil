@@ -1,0 +1,36 @@
+package com.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.DAO.Insert_impl;
+import com.pojo.login_pojo;
+
+@WebServlet("/Login_controller")
+public class Login_controller extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		login_pojo login = new login_pojo();
+		login.setEmail(request.getParameter("email"));
+		login.setPassword(request.getParameter("password"));
+		String button = request.getParameter("submit");
+		if(button.equals("submit")){
+			
+			Insert_impl impl = impl.fetch();
+		}
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

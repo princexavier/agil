@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.reg-form{
+	display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c7bdbd;
+}
+
+.divider-1 {
+
+    display: inline-block;
+    width: calc(100% / 1);
+    float: left;
+}
+
+.divider-2 {
+    display: inline-block;
+    width: calc(100% / 2);
+    float: left;
+}
+
+.color {
+    color: #161582;
+    padding-right: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.color:hover {
+    color: #16158261;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar-nav {
+    float: right;
+    margin-right: 100px;
+}
+
+.navbar-default {
+    border: none;
+    padding: 10px 56px 10px 84px;
+    background: #161582;
+    margin-bottom: 0px;
+}
+
+.navbar-brand,
+.navbar-nav>li>a {
+
+    color: #fff !important;
+}
+
+nav .active a {
+    background-color: transparent !important;
+}
+
+.dashboard {
+    padding: 20px 0px;
+    background: #ececec;
+}
+
+.dash-title {
+    padding-left: 111px;
+}
+
+.auth {
+    background: #ececec;
+    padding: 20px;
+}
+
+.left-content>span {
+    display: block;
+}
+
+.lab-title {
+    padding: 20px 0px;
+}
+
+.bg {
+    margin-top: 20px;
+    padding: 10px 0px;
+    background: #a6e4a6;
+}
+
+.bg a >button {
+    float: right;
+    margin-right: 20px;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 0px;
+    background: #ececec;
+}
+
+.right-bor {
+    border-right: 1px solid #ececec;
+}
+
+.foot-content:first-child {
+    margin-left: 64px;
+    margin-top: 10px;
+}
+
+.foot-content li {
+    border-right: 1px solid #a79a9ab8;
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bar {
+    width: 90%;
+    background: #ececec;
+    border-left: 10px solid blue;
+}
+
+.bar>span {
+    float: right;
+}
+
+
+
+/*Ticket page style */
+
+.btn-style {
+    border: none;
+    color: #fff;
+    outline: none;
+    background: #161582;
+    transition: 0.5s ease-in-out;
+}
+.first-btn{
+	margin-left: 150px
+}
+.btn-style:hover{
+	background: #161582a8;
+}
+.icon-style{
+	padding-right: 10px;
+}
+.events{
+
+}
+.list-style{
+	padding: 10px 0px;
+}
+
+
+/*New ticket page style*/
+
+.cs-btn{
+    padding: 11px 10px;
+    margin-left: 150px;
+    color: #ffff;
+    background: #161582;
+    transition: 0.5s ease-in-out;
+}
+.cs-btn:hover{
+ background: #1615825c;
+ color: #fff;
+}
+textarea {
+    resize: none;
+}
+.nav-tabs{
+    margin-bottom: 50px;
+}
+label{
+    font-weight: 300;
+}
+.btn-primary{
+    background-color: #161582;
+}
+#menu4 > p{
+    padding: 20px 10px;
+    background: #ececec;
+    margin-bottom: 40px;
+}
+input[type="date"]{
+    border-radius: 4px;
+}

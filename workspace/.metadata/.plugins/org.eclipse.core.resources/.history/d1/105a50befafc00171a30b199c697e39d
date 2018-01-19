@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>agile</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+	history.forward();
+</script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Agile Management</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="ticket.html">Tickets</a></li>
+					<li><a href="ticket.html">Sprints</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#" class="user"><i class="fa fa-user"></i>
+							<%
+								session.getAttribute("email");
+							%></a></li>
+
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<ul class="dashboard clearfix">
+		<li class="divider-2"><a href="#" class="dash-title">Create
+				New Project</a></li>
+	</ul>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 col=sm-12"></div>
+			<div class="col-md-7 col=sm-12 left-content">
+				<p class="auth">Lorem ipsum dolor sit amet, consectetur
+					adipisicing elit. Omnis provident vero sapiente sunt, animi
+					accusantium culpa quaerat neque consequuntur iste?</p>
+				<div class="form-group">
+					<input type="text" placeholder="Enter a name for this Project"
+						class="form-control" id="pwd">
+				</div>
+				<span>How do you manage your workflow?</span>
+				<div class="radio lab-title">
+					<label> <input type="radio" name="optradio">Traditional
+						- Tickets are added to milestones to track the project progress
+					</label>
+				</div>
+				<div class="radio">
+					<label> <input type="radio" name="optradio">Agile -
+						Tickets area added to time boxed sprints to plan upcoming work and
+						reviews
+					</label>
+				</div>
+				<div class="bg clearfix">
+					<a href="ticket.html">
+						<button class="btn btn-success btn-sm">Create project</button>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 col=sm-12">
+				<h4>Project Limit</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Fugit ipsa ducimus odit libero earum id, itaque laborum accusamus
+					consequuntur, obcaecati!</p>
+				<div class="bar clearfix">
+					<span>20</span>
+				</div>
+			</div>
+			<div class="col-md-1 col=sm-12"></div>
+		</div>
+	</div>
+	<footer>
+		<ul class="foot-content">
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Terms & Conditions</a></li>
+		</ul>
+	</footer>
+
+
+</body>
+
+</html>
